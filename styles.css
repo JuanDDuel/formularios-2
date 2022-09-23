@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.formulario{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 65vh;
+}
+
+body{
+    background-image: url(img/wallpaperbetter.com_1920x1200.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

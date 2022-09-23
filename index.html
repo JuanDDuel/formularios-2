@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<br><br>
+<body>
+    <div class="lottie">
+        <center>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets5.lottiefiles.com/animated_stickers/lf_tgs_j7miwfxd.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+        </center>
+    </div>
+    <div class="formulario">
+        <form action="enviando.html" method="GET">
+            <input type="email" required placeholder="Ingresa tu correo">
+            <br>
+            <input type="password" placeholder="Ingresa tu contraseña">
+            <br>
+            <label for="">Fecha de nacimiento</label>
+            <input type="date">
+            <label for="">Color favorito</label>
+            <input type="color">
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10">
+                Comenta aqui
+            </textarea>
+            <br><br>
+            <input type="radio" value="ADSI" id="adsi" name="tecnologo en">
+            <label for="adsi">ADSI</label>
+            <input type="radio" value="ADSO" id="adso" name="tecnologo en">
+            <label for="adso">ADSO</label>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
